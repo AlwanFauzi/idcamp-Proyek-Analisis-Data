@@ -1,13 +1,21 @@
-﻿# Dashboard Analisis Kualitas Udara Beijing
+﻿﻿# Dashboard Analisis Kualitas Udara Beijing
 
 Dashboard ini dikembangkan menggunakan **Streamlit** untuk menganalisis kualitas udara (PM2.5, PM10, SO2, NO2, CO, O3) dari 12 stasiun di Beijing pada periode 2013-2017.
 
+## Pertanyaan Bisnis
+- Stasiun mana yang memiliki rata-rata PM2.5 tertinggi pada periode 2013-2017, dan bagaimana perbandingan antar stasiun?
+- Bagaimana pola musiman PM2.5 pada periode 2013-2017 (rata-rata bulanan)?
+- Bagaimana perbandingan rata-rata polutan lain (PM10, NO2, O3) antar stasiun pada periode 2013-2017?
+
 ## Fitur Dashboard
 - **Summary**: Ringkasan metrik utama berdasarkan filter yang dipilih.
+- **Pola Bulanan (Semua Stasiun)**: Tren bulanan gabungan untuk metrik terpilih.
+- **Pola Bulanan per Stasiun**: Tren bulanan per stasiun.
 - **Perbandingan Stasiun**: Rata-rata polutan per stasiun.
-- **Pola Bulanan**: Tren bulanan per stasiun.
-- **Analisis Lanjutan**: Distribusi kategori PM2.5 per musim (khusus PM2.5).
-- **Filter Interaktif**: Pilih stasiun, rentang tanggal, dan metrik polutan.
+- **Heatmap Metrik Terpilih (Interaktif)**: Perbandingan nilai rata-rata metrik terpilih per stasiun.
+- **Analisis Lanjutan**: Distribusi kategori PM2.5 per musim (jika PM2.5 dipilih) dan boxplot metrik terpilih per stasiun.
+- **Filter Interaktif**: Pilih stasiun, rentang tanggal, dan **lebih dari satu** metrik polutan.
+- **Tab Terpisah**: Setiap fitur ditampilkan di tab terpisah agar navigasi lebih jelas.
 
 ## Link Dashboard
 https://dashboard-kualitas-udara-beijing.streamlit.app/
